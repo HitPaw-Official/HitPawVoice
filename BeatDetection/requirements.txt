@@ -1,0 +1,4 @@
+librosa
+cython
+mido
+onnxruntime-directml
