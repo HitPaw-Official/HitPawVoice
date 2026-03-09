@@ -1,0 +1,28 @@
+#1.Install torch from pytorch.org:
+# pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu113
+einops
+fairseq
+flask
+flask_cors
+gin
+gin_config
+librosa
+local_attention
+matplotlib
+praat-parselmouth
+pyworld
+PyYAML
+resampy
+scikit_learn
+scipy
+SoundFile
+tensorboard
+tqdm
+wave
+PySimpleGUI
+sounddevice
+gradio
+noisereduce
+ffmpeg-python
+faiss-cpu
+torchcrepe
