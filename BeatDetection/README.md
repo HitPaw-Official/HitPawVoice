@@ -16,7 +16,7 @@ python setup.py develop
 
 Download the model from the following link:
 
-[models](https://huggingface.co/HitPawOfficial/HitPawVoice/resolve/main/BeatDetection/model_1_weights.onnx)
+[models.onnx](https://huggingface.co/HitPawOfficial/HitPawVoice/resolve/main/BeatDetection/model_1_weights.onnx)
 
 Place the downloaded file in the `models` directory:
 
