@@ -14,7 +14,7 @@ pip install -r requirements.txt
 
 Download the model from the following link:
 
-[5_HP-Karaoke-UVR.pth](https://huggingface.co/HitPawOfficial/HitPawVoice/resolve/main/SingingVoiceConversion/5_HP-Karaoke-UVR.pth)
+[models.pth](https://huggingface.co/HitPawOfficial/HitPawVoice/resolve/main/SingingVoiceConversion/5_HP-Karaoke-UVR.pth)
 
 Place the downloaded file in the following directory:
 
