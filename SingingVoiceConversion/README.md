@@ -1,11 +1,44 @@
-# AI Voice Conversion code
+# Singing Voice Conversion
 
+A simple singing voice conversion demo and inference workflow.
 
-启动文件：demo_svc.py
+## Installation
 
-主要参数：
-- sid：说话人id，int [0-18]
-- f0_up_key：升调降调，int [-12,12].男声变男声或女声变女声0，男声变女声+12，女声变男声-12.
-- index_rate:声音相似度，默认0.7，float [0, 1]
+Install the required dependencies:
 
-环境包详情见requirements.txt
+```bash
+pip install -r requirements.txt
+```
+
+## Model
+
+Download the model from the following link:
+
+[5_HP-Karaoke-UVR.pth](https://huggingface.co/HitPawOfficial/HitPawVoice/resolve/main/SingingVoiceConversion/5_HP-Karaoke-UVR.pth)
+
+Place the downloaded file in the following directory:
+
+```text
+lib/vocal_remover/5_HP-Karaoke-UVR.pth
+```
+
+## Usage
+
+Main entry file:
+
+```text
+demo_svc.py
+```
+
+## Main Parameters
+
+- `sid`: speaker ID, `int`, range `[0, 18]`
+- `f0_up_key`: pitch shift, `int`, range `[-12, 12]`  
+  - Use `0` for male-to-male or female-to-female conversion  
+  - Use `+12` for male-to-female conversion  
+  - Use `-12` for female-to-male conversion
+- `index_rate`: voice similarity, `float`, default `0.7`, range `[0, 1]`
+
+## Requirements
+
+See `requirements.txt` for the full environment dependencies.
